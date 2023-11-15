@@ -14,10 +14,10 @@ int main() {
         miMapa[3] = "Tres";
 
 
-        std::set<std::string> miSet = {"Manzana", "Banana", "Cereza"};
-        miSet.insert("Damasco");
+        std::set<std::string> miSet = {"melocoton", "more", "arandano"};
+        miSet.insert("sandia");
 
-   
+
     std::cout << "Contenido del vector:" << std::endl;
     for (int num : miVector) {
         std::cout << num << " ";

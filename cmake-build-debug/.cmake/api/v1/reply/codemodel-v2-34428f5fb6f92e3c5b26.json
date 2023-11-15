@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EjerciciosCMake",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Ejercicio1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio1-Debug-bb3a944012d72458840e.json",
+					"name" : "Ejercicio1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ejercicio2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio2-Debug-4db805d9d7d21bb0a3e4.json",
+					"name" : "Ejercicio2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ejercicio3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio3-Debug-95ca38269dc8f10fb7fe.json",
+					"name" : "Ejercicio3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ejercicio4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio4-Debug-baffc6196a7513c58187.json",
+					"name" : "Ejercicio4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ejercicio5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio5-Debug-61d9114f6f12c586ed8b.json",
+					"name" : "Ejercicio5",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/alber_wzgn3ys/Documents/GitHub/stl3/cmake-build-debug",
+		"source" : "C:/Users/alber_wzgn3ys/Documents/GitHub/stl3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

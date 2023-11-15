@@ -1,4 +1,7 @@
-C:/Users/alber_wzgn3ys/Documents/GitHub/stl3/cmake-build-debug/CMakeFiles/ej1.dir
-C:/Users/alber_wzgn3ys/Documents/GitHub/stl3/cmake-build-debug/CMakeFiles/triangulo.dir
+C:/Users/alber_wzgn3ys/Documents/GitHub/stl3/cmake-build-debug/CMakeFiles/Ejercicio1.dir
+C:/Users/alber_wzgn3ys/Documents/GitHub/stl3/cmake-build-debug/CMakeFiles/Ejercicio2.dir
+C:/Users/alber_wzgn3ys/Documents/GitHub/stl3/cmake-build-debug/CMakeFiles/Ejercicio3.dir
+C:/Users/alber_wzgn3ys/Documents/GitHub/stl3/cmake-build-debug/CMakeFiles/Ejercicio4.dir
+C:/Users/alber_wzgn3ys/Documents/GitHub/stl3/cmake-build-debug/CMakeFiles/Ejercicio5.dir
 C:/Users/alber_wzgn3ys/Documents/GitHub/stl3/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/alber_wzgn3ys/Documents/GitHub/stl3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

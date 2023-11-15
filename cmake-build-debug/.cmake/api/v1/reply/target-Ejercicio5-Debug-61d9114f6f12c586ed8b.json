@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "triangulo.exe"
+			"path" : "Ejercicio5.exe"
 		},
 		{
-			"path" : "triangulo.pdb"
+			"path" : "Ejercicio5.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -38,27 +38,17 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"language" : "CXX",
-			"languageStandard" : 
-			{
-				"backtraces" : 
-				[
-					1
-				],
-				"standard" : "14"
-			},
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2
+				0
 			]
 		}
 	],
-	"id" : "triangulo::@6890427a1f51a3e7e1df",
+	"id" : "Ejercicio5::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -78,8 +68,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "triangulo",
-	"nameOnDisk" : "triangulo.exe",
+	"name" : "Ejercicio5",
+	"nameOnDisk" : "Ejercicio5.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -91,9 +81,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2
+				0
 			]
 		}
 	],
@@ -102,19 +90,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "triangulo.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "circulo.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "ejercicio5.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

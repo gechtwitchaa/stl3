@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: stl3
+# Project: EjerciciosCMake
 # Configurations: Debug
 # =============================================================================
 
@@ -41,82 +41,169 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target ej1
+# Object build statements for EXECUTABLE target Ejercicio1
 
 
 #############################################
-# Order-only phony target for ej1
+# Order-only phony target for Ejercicio1
 
-build cmake_object_order_depends_target_ej1: phony || CMakeFiles/ej1.dir
+build cmake_object_order_depends_target_Ejercicio1: phony || CMakeFiles/Ejercicio1.dir
 
-build CMakeFiles/ej1.dir/ej1.cpp.obj: CXX_COMPILER__ej1_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/ej1.cpp || cmake_object_order_depends_target_ej1
-  DEP_FILE = CMakeFiles\ej1.dir\ej1.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ej1.dir
-  OBJECT_FILE_DIR = CMakeFiles\ej1.dir
+build CMakeFiles/Ejercicio1.dir/ejercicio1.cpp.obj: CXX_COMPILER__Ejercicio1_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/ejercicio1.cpp || cmake_object_order_depends_target_Ejercicio1
+  DEP_FILE = CMakeFiles\Ejercicio1.dir\ejercicio1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicio1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicio1.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ej1
+# Link build statements for EXECUTABLE target Ejercicio1
 
 
 #############################################
-# Link the executable ej1.exe
+# Link the executable Ejercicio1.exe
 
-build ej1.exe: CXX_EXECUTABLE_LINKER__ej1_Debug CMakeFiles/ej1.dir/ej1.cpp.obj
+build Ejercicio1.exe: CXX_EXECUTABLE_LINKER__Ejercicio1_Debug CMakeFiles/Ejercicio1.dir/ejercicio1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ej1.dir
+  OBJECT_DIR = CMakeFiles\Ejercicio1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = ej1.exe
-  TARGET_IMPLIB = libej1.dll.a
-  TARGET_PDB = ej1.exe.dbg
+  TARGET_FILE = Ejercicio1.exe
+  TARGET_IMPLIB = libEjercicio1.dll.a
+  TARGET_PDB = Ejercicio1.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target triangulo
+# Object build statements for EXECUTABLE target Ejercicio2
 
 
 #############################################
-# Order-only phony target for triangulo
+# Order-only phony target for Ejercicio2
 
-build cmake_object_order_depends_target_triangulo: phony || CMakeFiles/triangulo.dir
+build cmake_object_order_depends_target_Ejercicio2: phony || CMakeFiles/Ejercicio2.dir
 
-build CMakeFiles/triangulo.dir/triangulo.cpp.obj: CXX_COMPILER__triangulo_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/triangulo.cpp || cmake_object_order_depends_target_triangulo
-  DEP_FILE = CMakeFiles\triangulo.dir\triangulo.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\triangulo.dir
-  OBJECT_FILE_DIR = CMakeFiles\triangulo.dir
-
-build CMakeFiles/triangulo.dir/circulo.cpp.obj: CXX_COMPILER__triangulo_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/circulo.cpp || cmake_object_order_depends_target_triangulo
-  DEP_FILE = CMakeFiles\triangulo.dir\circulo.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\triangulo.dir
-  OBJECT_FILE_DIR = CMakeFiles\triangulo.dir
-
-build CMakeFiles/triangulo.dir/main.cpp.obj: CXX_COMPILER__triangulo_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/main.cpp || cmake_object_order_depends_target_triangulo
-  DEP_FILE = CMakeFiles\triangulo.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\triangulo.dir
-  OBJECT_FILE_DIR = CMakeFiles\triangulo.dir
+build CMakeFiles/Ejercicio2.dir/main.cpp.obj: CXX_COMPILER__Ejercicio2_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/main.cpp || cmake_object_order_depends_target_Ejercicio2
+  DEP_FILE = CMakeFiles\Ejercicio2.dir\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicio2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicio2.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target triangulo
+# Link build statements for EXECUTABLE target Ejercicio2
 
 
 #############################################
-# Link the executable triangulo.exe
+# Link the executable Ejercicio2.exe
 
-build triangulo.exe: CXX_EXECUTABLE_LINKER__triangulo_Debug CMakeFiles/triangulo.dir/triangulo.cpp.obj CMakeFiles/triangulo.dir/circulo.cpp.obj CMakeFiles/triangulo.dir/main.cpp.obj
+build Ejercicio2.exe: CXX_EXECUTABLE_LINKER__Ejercicio2_Debug CMakeFiles/Ejercicio2.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\triangulo.dir
+  OBJECT_DIR = CMakeFiles\Ejercicio2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = triangulo.exe
-  TARGET_IMPLIB = libtriangulo.dll.a
-  TARGET_PDB = triangulo.exe.dbg
+  TARGET_FILE = Ejercicio2.exe
+  TARGET_IMPLIB = libEjercicio2.dll.a
+  TARGET_PDB = Ejercicio2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ejercicio3
+
+
+#############################################
+# Order-only phony target for Ejercicio3
+
+build cmake_object_order_depends_target_Ejercicio3: phony || CMakeFiles/Ejercicio3.dir
+
+build CMakeFiles/Ejercicio3.dir/ejercicio3.cpp.obj: CXX_COMPILER__Ejercicio3_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/ejercicio3.cpp || cmake_object_order_depends_target_Ejercicio3
+  DEP_FILE = CMakeFiles\Ejercicio3.dir\ejercicio3.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicio3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicio3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ejercicio3
+
+
+#############################################
+# Link the executable Ejercicio3.exe
+
+build Ejercicio3.exe: CXX_EXECUTABLE_LINKER__Ejercicio3_Debug CMakeFiles/Ejercicio3.dir/ejercicio3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ejercicio3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ejercicio3.exe
+  TARGET_IMPLIB = libEjercicio3.dll.a
+  TARGET_PDB = Ejercicio3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ejercicio4
+
+
+#############################################
+# Order-only phony target for Ejercicio4
+
+build cmake_object_order_depends_target_Ejercicio4: phony || CMakeFiles/Ejercicio4.dir
+
+build CMakeFiles/Ejercicio4.dir/ejercicio4.cpp.obj: CXX_COMPILER__Ejercicio4_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/ejercicio4.cpp || cmake_object_order_depends_target_Ejercicio4
+  DEP_FILE = CMakeFiles\Ejercicio4.dir\ejercicio4.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicio4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicio4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ejercicio4
+
+
+#############################################
+# Link the executable Ejercicio4.exe
+
+build Ejercicio4.exe: CXX_EXECUTABLE_LINKER__Ejercicio4_Debug CMakeFiles/Ejercicio4.dir/ejercicio4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ejercicio4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ejercicio4.exe
+  TARGET_IMPLIB = libEjercicio4.dll.a
+  TARGET_PDB = Ejercicio4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ejercicio5
+
+
+#############################################
+# Order-only phony target for Ejercicio5
+
+build cmake_object_order_depends_target_Ejercicio5: phony || CMakeFiles/Ejercicio5.dir
+
+build CMakeFiles/Ejercicio5.dir/ejercicio5.cpp.obj: CXX_COMPILER__Ejercicio5_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/ejercicio5.cpp || cmake_object_order_depends_target_Ejercicio5
+  DEP_FILE = CMakeFiles\Ejercicio5.dir\ejercicio5.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicio5.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicio5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ejercicio5
+
+
+#############################################
+# Link the executable Ejercicio5.exe
+
+build Ejercicio5.exe: CXX_EXECUTABLE_LINKER__Ejercicio5_Debug CMakeFiles/Ejercicio5.dir/ejercicio5.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ejercicio5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ejercicio5.exe
+  TARGET_IMPLIB = libEjercicio5.dll.a
+  TARGET_PDB = Ejercicio5.exe.dbg
 
 
 #############################################
@@ -144,9 +231,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build ej1: phony ej1.exe
+build Ejercicio1: phony Ejercicio1.exe
 
-build triangulo: phony triangulo.exe
+build Ejercicio2: phony Ejercicio2.exe
+
+build Ejercicio3: phony Ejercicio3.exe
+
+build Ejercicio4: phony Ejercicio4.exe
+
+build Ejercicio5: phony Ejercicio5.exe
 
 # =============================================================================
 # Folder targets.
@@ -156,7 +249,12 @@ build triangulo: phony triangulo.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/stl3/cmake-build-debug
 
-build all: phony ej1.exe triangulo.exe
+build all: phony Ejercicio1.exe Ejercicio2.exe Ejercicio3.exe Ejercicio4.exe Ejercicio5.exe
+
+# =============================================================================
+# Unknown Build Time Dependencies.
+# Tell Ninja that they may appear as side effects of build rules
+# otherwise ordered by order-only dependencies.
 
 # =============================================================================
 # Built-in targets
