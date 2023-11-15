@@ -1,7 +1,7 @@
-#include <iostream>
-
 namespace Geometria {
+    const double PI = 3.14159;
+
     double calcularAreaCirculo(double radio) {
-        return 3.1416 * radio * radio;
+        return PI * radio * radio;
     }
 }
