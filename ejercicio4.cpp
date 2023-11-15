@@ -11,7 +11,7 @@ namespace Ciencia {
 }
 
 int main() {
-    double masa = 10.0; // en kilogramos
+    double masa = 10.0;
 
     std::cout << "Energía correspondiente a una masa de " << masa << " kg: "
               << Ciencia::Fisica::calcularEnergia(masa) << " Joules" << std::endl;
