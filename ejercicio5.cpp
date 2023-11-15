@@ -17,4 +17,23 @@ int main() {
         std::set<std::string> miSet = {"Manzana", "Banana", "Cereza"};
         miSet.insert("Damasco");
 
+   
+    std::cout << "Contenido del vector:" << std::endl;
+    for (int num : miVector) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    std::cout << "Contenido del mapa:" << std::endl;
+    for (const auto& pair : miMapa) {
+        std::cout << pair.first << ": " << pair.second << std::endl;
+    }
+
+    std::cout << "Contenido del set:" << std::endl;
+    for (const auto& fruta : miSet) {
+        std::cout << fruta << std::endl;
+    }
+
+    return 0;
+}
 
