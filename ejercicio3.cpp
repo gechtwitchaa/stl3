@@ -9,17 +9,17 @@ namespace Geometria {
         Circulo(double r) : radio(r) {}
 
         double calcularArea() {
-            return 3.1416 * radio * radio;
+            return 3.14 * radio * radio;
         }
 
         double calcularPerimetro() {
-            return 2 * 3.1416 * radio;
+            return 2 * 3.14 * radio;
         }
     };
 }
 
 int main() {
-    double radio = 5.0;
+    double radio = 3.0;
     Geometria::Circulo circulo(radio);
 
     std::cout << "Área del círculo: " << circulo.calcularArea() << std::endl;
