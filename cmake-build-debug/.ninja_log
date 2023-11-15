@@ -1,3 +1,10 @@
 # ninja log v5
 6	564	7217760210130332	CMakeFiles/stl3.dir/ej1.cpp.obj	8e585467257df2e4
-566	758	7217760211973516	stl3.exe	1265737b767e36a6
+22	768	7217763098602853	CMakeFiles/stl3.dir/main.cpp.obj	25c76a302a4919ce
+13	811	7217763099079348	CMakeFiles/stl3.dir/circulo.cpp.obj	75fde130f1941fb7
+5	784	7217763098887083	CMakeFiles/stl3.dir/triangulo.cpp.obj	ba03a6faef1fd169
+1	606	7217763588224675	CMakeFiles/triangulo.cpp.dir/main.cpp.obj	be0e872fb3c6f406
+9	604	7217763588174803	CMakeFiles/triangulo.cpp.dir/circulo.cpp.obj	1bd294856da38b8a
+0	905	7217764207205130	CMakeFiles/triangulo.dir/circulo.cpp.obj	d87fbab9a77d9f6a
+16	935	7217764207580729	CMakeFiles/triangulo.dir/triangulo.cpp.obj	63572dafaf2782f4
+8	952	7217764207727691	CMakeFiles/triangulo.dir/main.cpp.obj	e3ec12e226f35294

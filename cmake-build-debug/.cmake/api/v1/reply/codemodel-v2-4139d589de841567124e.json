@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "stl3",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,9 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "stl3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-stl3-Debug-79cb0365f0ad63698199.json",
-					"name" : "stl3",
+					"id" : "ej1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ej1-Debug-934ae35f47f722476a58.json",
+					"name" : "ej1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "triangulo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-triangulo-Debug-f89e52a4743813c63a0e.json",
+					"name" : "triangulo",
 					"projectIndex" : 0
 				}
 			]

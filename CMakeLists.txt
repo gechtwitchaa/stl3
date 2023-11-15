@@ -1,9 +1,17 @@
-cmake_minimum_required(VERSION 3.26)
-project(stl3)
+cmake_minimum_required(VERSION 3.0)
+project(EjerciciosCMake)
 
-set(CMAKE_CXX_STANDARD 14)
 
-add_executable(stl3
-        ej1.cpp
-        triangulo.cpp
-        circulo.cpp)
+add_executable(Ejercicio1 ejercicio1.cpp)
+
+
+add_executable(Ejercicio2 main.cpp circulo.cpp triangulo.cpp)
+
+
+add_executable(Ejercicio3 ejercicio3.cpp)
+
+
+add_executable(Ejercicio4 ejercicio4.cpp)
+
+
+add_executable(Ejercicio5 ejercicio5.cpp)

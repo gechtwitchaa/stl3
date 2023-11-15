@@ -41,49 +41,82 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target stl3
+# Object build statements for EXECUTABLE target ej1
 
 
 #############################################
-# Order-only phony target for stl3
+# Order-only phony target for ej1
 
-build cmake_object_order_depends_target_stl3: phony || CMakeFiles/stl3.dir
+build cmake_object_order_depends_target_ej1: phony || CMakeFiles/ej1.dir
 
-build CMakeFiles/stl3.dir/ej1.cpp.obj: CXX_COMPILER__stl3_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/ej1.cpp || cmake_object_order_depends_target_stl3
-  DEP_FILE = CMakeFiles\stl3.dir\ej1.cpp.obj.d
+build CMakeFiles/ej1.dir/ej1.cpp.obj: CXX_COMPILER__ej1_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/ej1.cpp || cmake_object_order_depends_target_ej1
+  DEP_FILE = CMakeFiles\ej1.dir\ej1.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\stl3.dir
-  OBJECT_FILE_DIR = CMakeFiles\stl3.dir
-
-build CMakeFiles/stl3.dir/triangulo.cpp.obj: CXX_COMPILER__stl3_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/triangulo.cpp || cmake_object_order_depends_target_stl3
-  DEP_FILE = CMakeFiles\stl3.dir\triangulo.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\stl3.dir
-  OBJECT_FILE_DIR = CMakeFiles\stl3.dir
-
-build CMakeFiles/stl3.dir/circulo.cpp.obj: CXX_COMPILER__stl3_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/circulo.cpp || cmake_object_order_depends_target_stl3
-  DEP_FILE = CMakeFiles\stl3.dir\circulo.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\stl3.dir
-  OBJECT_FILE_DIR = CMakeFiles\stl3.dir
+  OBJECT_DIR = CMakeFiles\ej1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ej1.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target stl3
+# Link build statements for EXECUTABLE target ej1
 
 
 #############################################
-# Link the executable stl3.exe
+# Link the executable ej1.exe
 
-build stl3.exe: CXX_EXECUTABLE_LINKER__stl3_Debug CMakeFiles/stl3.dir/ej1.cpp.obj CMakeFiles/stl3.dir/triangulo.cpp.obj CMakeFiles/stl3.dir/circulo.cpp.obj
+build ej1.exe: CXX_EXECUTABLE_LINKER__ej1_Debug CMakeFiles/ej1.dir/ej1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\stl3.dir
+  OBJECT_DIR = CMakeFiles\ej1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = stl3.exe
-  TARGET_IMPLIB = libstl3.dll.a
-  TARGET_PDB = stl3.exe.dbg
+  TARGET_FILE = ej1.exe
+  TARGET_IMPLIB = libej1.dll.a
+  TARGET_PDB = ej1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target triangulo
+
+
+#############################################
+# Order-only phony target for triangulo
+
+build cmake_object_order_depends_target_triangulo: phony || CMakeFiles/triangulo.dir
+
+build CMakeFiles/triangulo.dir/triangulo.cpp.obj: CXX_COMPILER__triangulo_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/triangulo.cpp || cmake_object_order_depends_target_triangulo
+  DEP_FILE = CMakeFiles\triangulo.dir\triangulo.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\triangulo.dir
+  OBJECT_FILE_DIR = CMakeFiles\triangulo.dir
+
+build CMakeFiles/triangulo.dir/circulo.cpp.obj: CXX_COMPILER__triangulo_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/circulo.cpp || cmake_object_order_depends_target_triangulo
+  DEP_FILE = CMakeFiles\triangulo.dir\circulo.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\triangulo.dir
+  OBJECT_FILE_DIR = CMakeFiles\triangulo.dir
+
+build CMakeFiles/triangulo.dir/main.cpp.obj: CXX_COMPILER__triangulo_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/main.cpp || cmake_object_order_depends_target_triangulo
+  DEP_FILE = CMakeFiles\triangulo.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\triangulo.dir
+  OBJECT_FILE_DIR = CMakeFiles\triangulo.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target triangulo
+
+
+#############################################
+# Link the executable triangulo.exe
+
+build triangulo.exe: CXX_EXECUTABLE_LINKER__triangulo_Debug CMakeFiles/triangulo.dir/triangulo.cpp.obj CMakeFiles/triangulo.dir/circulo.cpp.obj CMakeFiles/triangulo.dir/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\triangulo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = triangulo.exe
+  TARGET_IMPLIB = libtriangulo.dll.a
+  TARGET_PDB = triangulo.exe.dbg
 
 
 #############################################
@@ -111,7 +144,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build stl3: phony stl3.exe
+build ej1: phony ej1.exe
+
+build triangulo: phony triangulo.exe
 
 # =============================================================================
 # Folder targets.
@@ -121,7 +156,7 @@ build stl3: phony stl3.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/stl3/cmake-build-debug
 
-build all: phony stl3.exe
+build all: phony ej1.exe triangulo.exe
 
 # =============================================================================
 # Built-in targets

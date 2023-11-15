@@ -1,4 +1,16 @@
 "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\alber_wzgn3ys\Documents\GitHub\stl3 -B C:\Users\alber_wzgn3ys\Documents\GitHub\stl3\cmake-build-debug
 -- Configuring done (0.2s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/alber_wzgn3ys/Documents/GitHub/stl3/cmake-build-debug
+CMake Error at CMakeLists.txt:17 (add_executable):
+  Cannot find source file:
+
+    ejercicio5.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+
+CMake Error at CMakeLists.txt:17 (add_executable):
+  No SOURCES given to target: Ejercicio5
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

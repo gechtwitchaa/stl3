@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "stl3.exe"
+			"path" : "triangulo.exe"
 		},
 		{
-			"path" : "stl3.pdb"
+			"path" : "triangulo.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 7,
 				"parent" : 0
 			}
 		]
@@ -58,7 +58,7 @@
 			]
 		}
 	],
-	"id" : "stl3::@6890427a1f51a3e7e1df",
+	"id" : "triangulo::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -78,8 +78,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "stl3",
-	"nameOnDisk" : "stl3.exe",
+	"name" : "triangulo",
+	"nameOnDisk" : "triangulo.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -102,12 +102,6 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ej1.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
 			"path" : "triangulo.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -115,6 +109,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "circulo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
