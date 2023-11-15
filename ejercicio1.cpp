@@ -27,7 +27,9 @@ namespace Matematicas {
     double potencia(double base, double exponente) {
         return pow(base, exponente);
     }
-
+    double raizCuadrada(double num) {
+        return sqrt(num);
+    }
 }
 
 int main() {
@@ -37,9 +39,11 @@ int main() {
     std::cout << "Multiplicación: " << Matematicas::multiplicacion(x, y) << std::endl;
     std::cout << "División: " << Matematicas::division(x, y) << std::endl;
 
-    double base = 2.0, exponente = 3.0;
+    double base = 2.0, exponente = 8.0;
     std::cout << "Potencia: " << Matematicas::potencia(base, exponente) << std::endl;
-    
+
+    double num = 25.0;
+    std::cout << "Raíz cuadrada: " << Matematicas::raizCuadrada(num) << std::endl;
 
     return 0;
 }
