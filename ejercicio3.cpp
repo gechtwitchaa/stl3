@@ -18,3 +18,12 @@ namespace Geometria {
     };
 }
 
+int main() {
+    double radio = 5.0;
+    Geometria::Circulo circulo(radio);
+
+    std::cout << "Área del círculo: " << circulo.calcularArea() << std::endl;
+    std::cout << "Perímetro del círculo: " << circulo.calcularPerimetro() << std::endl;
+
+    return 0;
+}
