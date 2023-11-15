@@ -13,4 +13,8 @@ int main() {
         miMapa[2] = "Dos";
         miMapa[3] = "Tres";
 
-       
+
+        std::set<std::string> miSet = {"Manzana", "Banana", "Cereza"};
+        miSet.insert("Damasco");
+
+
