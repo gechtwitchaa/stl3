@@ -61,6 +61,12 @@ build CMakeFiles/stl3.dir/triangulo.cpp.obj: CXX_COMPILER__stl3_unscanned_Debug 
   OBJECT_DIR = CMakeFiles\stl3.dir
   OBJECT_FILE_DIR = CMakeFiles\stl3.dir
 
+build CMakeFiles/stl3.dir/circulo.cpp.obj: CXX_COMPILER__stl3_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/stl3/circulo.cpp || cmake_object_order_depends_target_stl3
+  DEP_FILE = CMakeFiles\stl3.dir\circulo.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\stl3.dir
+  OBJECT_FILE_DIR = CMakeFiles\stl3.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target stl3
@@ -69,7 +75,7 @@ build CMakeFiles/stl3.dir/triangulo.cpp.obj: CXX_COMPILER__stl3_unscanned_Debug 
 #############################################
 # Link the executable stl3.exe
 
-build stl3.exe: CXX_EXECUTABLE_LINKER__stl3_Debug CMakeFiles/stl3.dir/ej1.cpp.obj CMakeFiles/stl3.dir/triangulo.cpp.obj
+build stl3.exe: CXX_EXECUTABLE_LINKER__stl3_Debug CMakeFiles/stl3.dir/ej1.cpp.obj CMakeFiles/stl3.dir/triangulo.cpp.obj CMakeFiles/stl3.dir/circulo.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\stl3.dir
